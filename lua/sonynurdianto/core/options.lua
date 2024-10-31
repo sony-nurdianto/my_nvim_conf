@@ -36,7 +36,7 @@ vim.opt.showmode = true
 
 -- theme options
 vim.opt.termguicolors = true
-vim.opt.background = "light"
+vim.opt.background = "dark"
 vim.opt.signcolumn = "yes"
 
 -- backspace options

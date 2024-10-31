@@ -58,6 +58,11 @@ return {
 				"stylua", -- lua formatter
 				"eslint_d",
 				"dart-debug-adapter",
+				"ast-grep",
+				"bacon",
+				"snyk",
+				"trivy",
+				-- "codelldb",
 			},
 		})
 	end,

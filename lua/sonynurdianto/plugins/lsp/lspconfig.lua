@@ -146,6 +146,21 @@ return {
 					},
 				})
 			end,
+			["rust-analyzer"] = function()
+				lspconfig["rust-analyzer"].setup({
+					capabilities = capabilities,
+					cargo = {
+						features = { "ssr" },
+					},
+					procMacro = {
+						ignored = {
+							leptos_macro = {
+								"server",
+							},
+						},
+					},
+				})
+			end,
 		})
 	end,
 }
